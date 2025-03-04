@@ -45,6 +45,15 @@ p {
     margin-top: 0;
     line-height: 1.5;
 }
+.profile-image {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
 @media (max-width: 600px) {
     .container {
